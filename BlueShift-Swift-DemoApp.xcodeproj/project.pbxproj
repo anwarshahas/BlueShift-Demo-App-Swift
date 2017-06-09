@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24806561EEAA658001366F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806551EEAA658001366F6 /* AppDelegate.swift */; };
+		C24806581EEAA658001366F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806571EEAA658001366F6 /* ViewController.swift */; };
+		C248065B1EEAA658001366F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24806591EEAA658001366F6 /* Main.storyboard */; };
+		C248065D1EEAA658001366F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C248065C1EEAA658001366F6 /* Assets.xcassets */; };
+		C24806601EEAA658001366F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */; };
+		C248066B1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248066A1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift */; };
+		C24806761EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806751EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24806671EEAA659001366F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C248064A1EEAA658001366F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24806511EEAA658001366F6;
+			remoteInfo = "BlueShift-Swift-DemoApp";
+		};
+		C24806721EEAA659001366F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C248064A1EEAA658001366F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24806511EEAA658001366F6;
+			remoteInfo = "BlueShift-Swift-DemoApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24806521EEAA658001366F6 /* BlueShift-Swift-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueShift-Swift-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24806551EEAA658001366F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C24806571EEAA658001366F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C248065A1EEAA658001366F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C248065C1EEAA658001366F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C248065F1EEAA658001366F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24806611EEAA658001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24806661EEAA659001366F6 /* BlueShift-Swift-DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueShift-Swift-DemoAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C248066A1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShift_Swift_DemoAppTests.swift; sourceTree = "<group>"; };
+		C248066C1EEAA659001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueShift-Swift-DemoAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24806751EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShift_Swift_DemoAppUITests.swift; sourceTree = "<group>"; };
+		C24806771EEAA659001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C248064F1EEAA658001366F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24806631EEAA659001366F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248066E1EEAA659001366F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24806491EEAA658001366F6 = {
+			isa = PBXGroup;
+			children = (
+				C24806541EEAA658001366F6 /* BlueShift-Swift-DemoApp */,
+				C24806691EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */,
+				C24806741EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */,
+				C24806531EEAA658001366F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24806531EEAA658001366F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24806521EEAA658001366F6 /* BlueShift-Swift-DemoApp.app */,
+				C24806661EEAA659001366F6 /* BlueShift-Swift-DemoAppTests.xctest */,
+				C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24806541EEAA658001366F6 /* BlueShift-Swift-DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C24806551EEAA658001366F6 /* AppDelegate.swift */,
+				C24806571EEAA658001366F6 /* ViewController.swift */,
+				C24806591EEAA658001366F6 /* Main.storyboard */,
+				C248065C1EEAA658001366F6 /* Assets.xcassets */,
+				C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */,
+				C24806611EEAA658001366F6 /* Info.plist */,
+			);
+			path = "BlueShift-Swift-DemoApp";
+			sourceTree = "<group>";
+		};
+		C24806691EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C248066A1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift */,
+				C248066C1EEAA659001366F6 /* Info.plist */,
+			);
+			path = "BlueShift-Swift-DemoAppTests";
+			sourceTree = "<group>";
+		};
+		C24806741EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C24806751EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift */,
+				C24806771EEAA659001366F6 /* Info.plist */,
+			);
+			path = "BlueShift-Swift-DemoAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248067A1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoApp" */;
+			buildPhases = (
+				C248064E1EEAA658001366F6 /* Sources */,
+				C248064F1EEAA658001366F6 /* Frameworks */,
+				C24806501EEAA658001366F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueShift-Swift-DemoApp";
+			productName = "BlueShift-Swift-DemoApp";
+			productReference = C24806521EEAA658001366F6 /* BlueShift-Swift-DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24806651EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248067D1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppTests" */;
+			buildPhases = (
+				C24806621EEAA659001366F6 /* Sources */,
+				C24806631EEAA659001366F6 /* Frameworks */,
+				C24806641EEAA659001366F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24806681EEAA659001366F6 /* PBXTargetDependency */,
+			);
+			name = "BlueShift-Swift-DemoAppTests";
+			productName = "BlueShift-Swift-DemoAppTests";
+			productReference = C24806661EEAA659001366F6 /* BlueShift-Swift-DemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C24806701EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24806801EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppUITests" */;
+			buildPhases = (
+				C248066D1EEAA659001366F6 /* Sources */,
+				C248066E1EEAA659001366F6 /* Frameworks */,
+				C248066F1EEAA659001366F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24806731EEAA659001366F6 /* PBXTargetDependency */,
+			);
+			name = "BlueShift-Swift-DemoAppUITests";
+			productName = "BlueShift-Swift-DemoAppUITests";
+			productReference = C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C248064A1EEAA658001366F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "shahas kp";
+				TargetAttributes = {
+					C24806511EEAA658001366F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FKABK7D68W;
+						ProvisioningStyle = Automatic;
+					};
+					C24806651EEAA659001366F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FKABK7D68W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C24806511EEAA658001366F6;
+					};
+					C24806701EEAA659001366F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FKABK7D68W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C24806511EEAA658001366F6;
+					};
+				};
+			};
+			buildConfigurationList = C248064D1EEAA658001366F6 /* Build configuration list for PBXProject "BlueShift-Swift-DemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24806491EEAA658001366F6;
+			productRefGroup = C24806531EEAA658001366F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */,
+				C24806651EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */,
+				C24806701EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24806501EEAA658001366F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24806601EEAA658001366F6 /* LaunchScreen.storyboard in Resources */,
+				C248065D1EEAA658001366F6 /* Assets.xcassets in Resources */,
+				C248065B1EEAA658001366F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24806641EEAA659001366F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248066F1EEAA659001366F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C248064E1EEAA658001366F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24806581EEAA658001366F6 /* ViewController.swift in Sources */,
+				C24806561EEAA658001366F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24806621EEAA659001366F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248066B1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248066D1EEAA659001366F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24806761EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24806681EEAA659001366F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */;
+			targetProxy = C24806671EEAA659001366F6 /* PBXContainerItemProxy */;
+		};
+		C24806731EEAA659001366F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */;
+			targetProxy = C24806721EEAA659001366F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24806591EEAA658001366F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C248065A1EEAA658001366F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C248065F1EEAA658001366F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24806781EEAA659001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C24806791EEAA659001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C248067B1EEAA659001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C248067C1EEAA659001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C248067E1EEAA659001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueShift-Swift-DemoApp.app/BlueShift-Swift-DemoApp";
+			};
+			name = Debug;
+		};
+		C248067F1EEAA659001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueShift-Swift-DemoApp.app/BlueShift-Swift-DemoApp";
+			};
+			name = Release;
+		};
+		C24806811EEAA659001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BlueShift-Swift-DemoApp";
+			};
+			name = Debug;
+		};
+		C24806821EEAA659001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FKABK7D68W;
+				INFOPLIST_FILE = "BlueShift-Swift-DemoAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BlueShift-Swift-DemoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C248064D1EEAA658001366F6 /* Build configuration list for PBXProject "BlueShift-Swift-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24806781EEAA659001366F6 /* Debug */,
+				C24806791EEAA659001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C248067A1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248067B1EEAA659001366F6 /* Debug */,
+				C248067C1EEAA659001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C248067D1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248067E1EEAA659001366F6 /* Debug */,
+				C248067F1EEAA659001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C24806801EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24806811EEAA659001366F6 /* Debug */,
+				C24806821EEAA659001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C248064A1EEAA658001366F6 /* Project object */;
+}
