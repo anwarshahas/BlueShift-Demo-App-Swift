@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38027B8DE222A923AA9417B1 /* Pods_BlueShift_Swift_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280947547DB435854C0F6191 /* Pods_BlueShift_Swift_DemoApp.framework */; };
+		9FBD05304339BAE693368180 /* Pods_BlueShiftContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC4FF23A8BD15E79B84FFE6 /* Pods_BlueShiftContent.framework */; };
+		C21887571FD1522D007F069C /* BSAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21887561FD1522D007F069C /* BSAnalytics.swift */; };
 		C24806561EEAA658001366F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806551EEAA658001366F6 /* AppDelegate.swift */; };
 		C24806581EEAA658001366F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806571EEAA658001366F6 /* ViewController.swift */; };
 		C248065B1EEAA658001366F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24806591EEAA658001366F6 /* Main.storyboard */; };
@@ -14,6 +17,14 @@
 		C24806601EEAA658001366F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */; };
 		C248066B1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248066A1EEAA659001366F6 /* BlueShift_Swift_DemoAppTests.swift */; };
 		C24806761EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806751EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift */; };
+		C248068A1EEAA74E001366F6 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24806891EEAA74E001366F6 /* UserNotifications.framework */; };
+		C248068C1EEAA74E001366F6 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C248068B1EEAA74E001366F6 /* UserNotificationsUI.framework */; };
+		C248068F1EEAA74E001366F6 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248068E1EEAA74E001366F6 /* NotificationViewController.swift */; };
+		C24806921EEAA74E001366F6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24806901EEAA74E001366F6 /* MainInterface.storyboard */; };
+		C24806961EEAA74E001366F6 /* BlueShiftContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C24806871EEAA74E001366F6 /* BlueShiftContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C24806A21EEAA760001366F6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24806A11EEAA760001366F6 /* NotificationService.swift */; };
+		C24806A61EEAA760001366F6 /* BlueShiftService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C248069F1EEAA760001366F6 /* BlueShiftService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7E9E5BC314D7074A0BA45A9 /* Pods_BlueShiftService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF4360F02CA2B33428EC996 /* Pods_BlueShiftService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +42,46 @@
 			remoteGlobalIDString = C24806511EEAA658001366F6;
 			remoteInfo = "BlueShift-Swift-DemoApp";
 		};
+		C24806941EEAA74E001366F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C248064A1EEAA658001366F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24806861EEAA74E001366F6;
+			remoteInfo = BlueShiftContent;
+		};
+		C24806A41EEAA760001366F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C248064A1EEAA658001366F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248069E1EEAA760001366F6;
+			remoteInfo = BlueShiftService;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C248069A1EEAA74E001366F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C24806961EEAA74E001366F6 /* BlueShiftContent.appex in Embed App Extensions */,
+				C24806A61EEAA760001366F6 /* BlueShiftService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		13BC4AFBF6AEC72F357A3586 /* Pods-BlueShift-Swift-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShift-Swift-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShift-Swift-DemoApp/Pods-BlueShift-Swift-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		1CC4FF23A8BD15E79B84FFE6 /* Pods_BlueShiftContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShiftContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2670CC1DB6433DA7ECF7692A /* Pods-BlueShiftContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftContent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftContent/Pods-BlueShiftContent.debug.xcconfig"; sourceTree = "<group>"; };
+		280947547DB435854C0F6191 /* Pods_BlueShift_Swift_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShift_Swift_DemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B36499AD16D882AAFECB2D8 /* Pods-BlueShiftService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftService.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftService/Pods-BlueShiftService.release.xcconfig"; sourceTree = "<group>"; };
+		3191D1E53B6D1CE5A71D5A5C /* Pods_BlueShift_Swift_DemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShift_Swift_DemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4042A66B6BDB69D62716A3A2 /* Pods-BlueShiftContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftContent.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftContent/Pods-BlueShiftContent.release.xcconfig"; sourceTree = "<group>"; };
+		C21887561FD1522D007F069C /* BSAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSAnalytics.swift; sourceTree = "<group>"; };
 		C24806521EEAA658001366F6 /* BlueShift-Swift-DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueShift-Swift-DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24806551EEAA658001366F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24806571EEAA658001366F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +95,22 @@
 		C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlueShift-Swift-DemoAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24806751EEAA659001366F6 /* BlueShift_Swift_DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShift_Swift_DemoAppUITests.swift; sourceTree = "<group>"; };
 		C24806771EEAA659001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24806871EEAA74E001366F6 /* BlueShiftContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlueShiftContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24806891EEAA74E001366F6 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C248068B1EEAA74E001366F6 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		C248068E1EEAA74E001366F6 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		C24806911EEAA74E001366F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C24806931EEAA74E001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C248069F1EEAA760001366F6 /* BlueShiftService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BlueShiftService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24806A11EEAA760001366F6 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		C24806A31EEAA760001366F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25106861F6A44B70092B106 /* BlueShiftContent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueShiftContent-Bridging-Header.h"; sourceTree = "<group>"; };
+		C27883EE1F6FC92400D7E354 /* BlueShiftService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueShiftService-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2F68FAD1EEAAD43004DDC8D /* BlueShift-Swift-DemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BlueShift-Swift-DemoApp.entitlements"; sourceTree = "<group>"; };
+		C575CD258D32435FEF281996 /* Pods_BlueShift_Swift_DemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShift_Swift_DemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7458B095608F100978927CF /* Pods-BlueShift-Swift-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShift-Swift-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShift-Swift-DemoApp/Pods-BlueShift-Swift-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE2CB690FCDE5D0E9AD3AC9 /* Pods-BlueShiftService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueShiftService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueShiftService/Pods-BlueShiftService.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF4360F02CA2B33428EC996 /* Pods_BlueShiftService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueShiftService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38027B8DE222A923AA9417B1 /* Pods_BlueShift_Swift_DemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,16 +136,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24806841EEAA74E001366F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248068C1EEAA74E001366F6 /* UserNotificationsUI.framework in Frameworks */,
+				C248068A1EEAA74E001366F6 /* UserNotifications.framework in Frameworks */,
+				9FBD05304339BAE693368180 /* Pods_BlueShiftContent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248069C1EEAA760001366F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E9E5BC314D7074A0BA45A9 /* Pods_BlueShiftService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EBECEC983ED08A994E966EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7458B095608F100978927CF /* Pods-BlueShift-Swift-DemoApp.debug.xcconfig */,
+				13BC4AFBF6AEC72F357A3586 /* Pods-BlueShift-Swift-DemoApp.release.xcconfig */,
+				2670CC1DB6433DA7ECF7692A /* Pods-BlueShiftContent.debug.xcconfig */,
+				4042A66B6BDB69D62716A3A2 /* Pods-BlueShiftContent.release.xcconfig */,
+				CFE2CB690FCDE5D0E9AD3AC9 /* Pods-BlueShiftService.debug.xcconfig */,
+				2B36499AD16D882AAFECB2D8 /* Pods-BlueShiftService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C21887581FD1527C007F069C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C21887561FD1522D007F069C /* BSAnalytics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C21887591FD15288007F069C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C24806571EEAA658001366F6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C218875A1FD15295007F069C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C2F68FAD1EEAAD43004DDC8D /* BlueShift-Swift-DemoApp.entitlements */,
+				C24806551EEAA658001366F6 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C218875B1FD152AE007F069C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C24806591EEAA658001366F6 /* Main.storyboard */,
+				C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C218875C1FD15304007F069C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C248065C1EEAA658001366F6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C24806491EEAA658001366F6 = {
 			isa = PBXGroup;
 			children = (
 				C24806541EEAA658001366F6 /* BlueShift-Swift-DemoApp */,
 				C24806691EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */,
 				C24806741EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */,
+				C248068D1EEAA74E001366F6 /* BlueShiftContent */,
+				C24806A01EEAA760001366F6 /* BlueShiftService */,
+				C24806881EEAA74E001366F6 /* Frameworks */,
 				C24806531EEAA658001366F6 /* Products */,
+				9EBECEC983ED08A994E966EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +232,8 @@
 				C24806521EEAA658001366F6 /* BlueShift-Swift-DemoApp.app */,
 				C24806661EEAA659001366F6 /* BlueShift-Swift-DemoAppTests.xctest */,
 				C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */,
+				C24806871EEAA74E001366F6 /* BlueShiftContent.appex */,
+				C248069F1EEAA760001366F6 /* BlueShiftService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +241,12 @@
 		C24806541EEAA658001366F6 /* BlueShift-Swift-DemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				C24806551EEAA658001366F6 /* AppDelegate.swift */,
-				C24806571EEAA658001366F6 /* ViewController.swift */,
-				C24806591EEAA658001366F6 /* Main.storyboard */,
-				C248065C1EEAA658001366F6 /* Assets.xcassets */,
-				C248065E1EEAA658001366F6 /* LaunchScreen.storyboard */,
 				C24806611EEAA658001366F6 /* Info.plist */,
+				C218875C1FD15304007F069C /* Resources */,
+				C218875B1FD152AE007F069C /* View */,
+				C218875A1FD15295007F069C /* Core */,
+				C21887591FD15288007F069C /* Controller */,
+				C21887581FD1527C007F069C /* Model */,
 			);
 			path = "BlueShift-Swift-DemoApp";
 			sourceTree = "<group>";
@@ -125,6 +269,41 @@
 			path = "BlueShift-Swift-DemoAppUITests";
 			sourceTree = "<group>";
 		};
+		C24806881EEAA74E001366F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24806891EEAA74E001366F6 /* UserNotifications.framework */,
+				C248068B1EEAA74E001366F6 /* UserNotificationsUI.framework */,
+				280947547DB435854C0F6191 /* Pods_BlueShift_Swift_DemoApp.framework */,
+				3191D1E53B6D1CE5A71D5A5C /* Pods_BlueShift_Swift_DemoAppTests.framework */,
+				C575CD258D32435FEF281996 /* Pods_BlueShift_Swift_DemoAppUITests.framework */,
+				1CC4FF23A8BD15E79B84FFE6 /* Pods_BlueShiftContent.framework */,
+				EBF4360F02CA2B33428EC996 /* Pods_BlueShiftService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C248068D1EEAA74E001366F6 /* BlueShiftContent */ = {
+			isa = PBXGroup;
+			children = (
+				C248068E1EEAA74E001366F6 /* NotificationViewController.swift */,
+				C24806901EEAA74E001366F6 /* MainInterface.storyboard */,
+				C24806931EEAA74E001366F6 /* Info.plist */,
+				C25106861F6A44B70092B106 /* BlueShiftContent-Bridging-Header.h */,
+			);
+			path = BlueShiftContent;
+			sourceTree = "<group>";
+		};
+		C24806A01EEAA760001366F6 /* BlueShiftService */ = {
+			isa = PBXGroup;
+			children = (
+				C24806A11EEAA760001366F6 /* NotificationService.swift */,
+				C24806A31EEAA760001366F6 /* Info.plist */,
+				C27883EE1F6FC92400D7E354 /* BlueShiftService-Bridging-Header.h */,
+			);
+			path = BlueShiftService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +311,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C248067A1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoApp" */;
 			buildPhases = (
+				F12D6662A824AA75556E440A /* [CP] Check Pods Manifest.lock */,
 				C248064E1EEAA658001366F6 /* Sources */,
 				C248064F1EEAA658001366F6 /* Frameworks */,
 				C24806501EEAA658001366F6 /* Resources */,
+				C248069A1EEAA74E001366F6 /* Embed App Extensions */,
+				58FE6160ACD0889C12889268 /* [CP] Embed Pods Frameworks */,
+				F1BEEB1E17A0F24D462F491C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C24806951EEAA74E001366F6 /* PBXTargetDependency */,
+				C24806A51EEAA760001366F6 /* PBXTargetDependency */,
 			);
 			name = "BlueShift-Swift-DemoApp";
 			productName = "BlueShift-Swift-DemoApp";
@@ -181,6 +366,44 @@
 			productReference = C24806711EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C24806861EEAA74E001366F6 /* BlueShiftContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24806971EEAA74E001366F6 /* Build configuration list for PBXNativeTarget "BlueShiftContent" */;
+			buildPhases = (
+				FF42CCEC6C87E949543FE6B5 /* [CP] Check Pods Manifest.lock */,
+				C24806831EEAA74E001366F6 /* Sources */,
+				C24806841EEAA74E001366F6 /* Frameworks */,
+				C24806851EEAA74E001366F6 /* Resources */,
+				41433FAFCFEE10635CB59892 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueShiftContent;
+			productName = BlueShiftContent;
+			productReference = C24806871EEAA74E001366F6 /* BlueShiftContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C248069E1EEAA760001366F6 /* BlueShiftService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24806A71EEAA760001366F6 /* Build configuration list for PBXNativeTarget "BlueShiftService" */;
+			buildPhases = (
+				547BFB89A71DDCD9176A93AE /* [CP] Check Pods Manifest.lock */,
+				C248069B1EEAA760001366F6 /* Sources */,
+				C248069C1EEAA760001366F6 /* Frameworks */,
+				C248069D1EEAA760001366F6 /* Resources */,
+				76C9BA809F0999262075AEAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueShiftService;
+			productName = BlueShiftService;
+			productReference = C248069F1EEAA760001366F6 /* BlueShiftService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,25 +411,45 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "shahas kp";
 				TargetAttributes = {
 					C24806511EEAA658001366F6 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = FKABK7D68W;
+						DevelopmentTeam = UJ5HGWR9W8;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					C24806651EEAA659001366F6 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = FKABK7D68W;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C24806511EEAA658001366F6;
 					};
 					C24806701EEAA659001366F6 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = FKABK7D68W;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C24806511EEAA658001366F6;
+					};
+					C24806861EEAA74E001366F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UJ5HGWR9W8;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					C248069E1EEAA760001366F6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UJ5HGWR9W8;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -226,6 +469,8 @@
 				C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */,
 				C24806651EEAA659001366F6 /* BlueShift-Swift-DemoAppTests */,
 				C24806701EEAA659001366F6 /* BlueShift-Swift-DemoAppUITests */,
+				C24806861EEAA74E001366F6 /* BlueShiftContent */,
+				C248069E1EEAA760001366F6 /* BlueShiftService */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +500,130 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24806851EEAA74E001366F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24806921EEAA74E001366F6 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248069D1EEAA760001366F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41433FAFCFEE10635CB59892 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftContent/Pods-BlueShiftContent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547BFB89A71DDCD9176A93AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58FE6160ACD0889C12889268 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShift-Swift-DemoApp/Pods-BlueShift-Swift-DemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C9BA809F0999262075AEAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShiftService/Pods-BlueShiftService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12D6662A824AA75556E440A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BEEB1E17A0F24D462F491C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueShift-Swift-DemoApp/Pods-BlueShift-Swift-DemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF42CCEC6C87E949543FE6B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C248064E1EEAA658001366F6 /* Sources */ = {
@@ -263,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C24806581EEAA658001366F6 /* ViewController.swift in Sources */,
+				C21887571FD1522D007F069C /* BSAnalytics.swift in Sources */,
 				C24806561EEAA658001366F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +652,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C24806831EEAA74E001366F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248068F1EEAA74E001366F6 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248069B1EEAA760001366F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24806A21EEAA760001366F6 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +680,16 @@
 			isa = PBXTargetDependency;
 			target = C24806511EEAA658001366F6 /* BlueShift-Swift-DemoApp */;
 			targetProxy = C24806721EEAA659001366F6 /* PBXContainerItemProxy */;
+		};
+		C24806951EEAA74E001366F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24806861EEAA74E001366F6 /* BlueShiftContent */;
+			targetProxy = C24806941EEAA74E001366F6 /* PBXContainerItemProxy */;
+		};
+		C24806A51EEAA760001366F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248069E1EEAA760001366F6 /* BlueShiftService */;
+			targetProxy = C24806A41EEAA760001366F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +710,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C24806901EEAA74E001366F6 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24806911EEAA74E001366F6 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -328,7 +731,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,7 +741,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,7 +788,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -387,7 +798,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -415,27 +830,33 @@
 		};
 		C248067B1EEAA659001366F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7458B095608F100978927CF /* Pods-BlueShift-Swift-DemoApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FKABK7D68W;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
 				INFOPLIST_FILE = "BlueShift-Swift-DemoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		C248067C1EEAA659001366F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BC4AFBF6AEC72F357A3586 /* Pods-BlueShift-Swift-DemoApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FKABK7D68W;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
 				INFOPLIST_FILE = "BlueShift-Swift-DemoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -449,7 +870,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueShift-Swift-DemoApp.app/BlueShift-Swift-DemoApp";
 			};
 			name = Debug;
@@ -464,7 +886,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueShift-Swift-DemoApp.app/BlueShift-Swift-DemoApp";
 			};
 			name = Release;
@@ -478,7 +901,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "BlueShift-Swift-DemoApp";
 			};
 			name = Debug;
@@ -492,8 +916,79 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.flogic.demoapp.BlueShift-Swift-DemoAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "BlueShift-Swift-DemoApp";
+			};
+			name = Release;
+		};
+		C24806981EEAA74E001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2670CC1DB6433DA7ECF7692A /* Pods-BlueShiftContent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
+				INFOPLIST_FILE = BlueShiftContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp.BlueShiftPushContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueShiftContent/BlueShiftContent-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C24806991EEAA74E001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4042A66B6BDB69D62716A3A2 /* Pods-BlueShiftContent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
+				INFOPLIST_FILE = BlueShiftContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp.BlueShiftPushContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueShiftContent/BlueShiftContent-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C24806A81EEAA760001366F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE2CB690FCDE5D0E9AD3AC9 /* Pods-BlueShiftService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
+				INFOPLIST_FILE = BlueShiftService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp.NotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueShiftService/BlueShiftService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C24806A91EEAA760001366F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B36499AD16D882AAFECB2D8 /* Pods-BlueShiftService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UJ5HGWR9W8;
+				INFOPLIST_FILE = BlueShiftService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueshift.readsapp.NotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BlueShiftService/BlueShiftService-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -516,6 +1011,7 @@
 				C248067C1EEAA659001366F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C248067D1EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1020,7 @@
 				C248067F1EEAA659001366F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C24806801EEAA659001366F6 /* Build configuration list for PBXNativeTarget "BlueShift-Swift-DemoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +1029,25 @@
 				C24806821EEAA659001366F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24806971EEAA74E001366F6 /* Build configuration list for PBXNativeTarget "BlueShiftContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24806981EEAA74E001366F6 /* Debug */,
+				C24806991EEAA74E001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24806A71EEAA760001366F6 /* Build configuration list for PBXNativeTarget "BlueShiftService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24806A81EEAA760001366F6 /* Debug */,
+				C24806A91EEAA760001366F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

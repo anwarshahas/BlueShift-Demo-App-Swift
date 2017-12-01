@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>BlueShiftContent.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BlueShiftService.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>C24806701EEAA659001366F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24806861EEAA74E001366F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C248069E1EEAA760001366F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

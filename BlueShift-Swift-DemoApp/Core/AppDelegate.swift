@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import BlueShift_iOS_SDK
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let config = BlueShiftConfig()
+        config.apiKey = "5dfe3c9aee8b375bcc616079b08156d9"
+        config.enableLocationAccess = false;
+        config.enablePushNotification = false;
+        BlueShiftBatchUploadConfig.sharedInstance().batchUploadTimer = 60.0
+        BlueShift.initWithConfiguration(config)
+        BlueShift.autoIntegration()
         return true
     }
 
@@ -27,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        BlueShift.sharedInstance().appDelegate.appDidEnterBackground(application)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -35,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        BlueShift.sharedInstance().appDelegate.appDidBecomeActive(application)
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
@@ -44,3 +55,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: BlueShiftPushDelegate {
+    func handleCarouselPush(forCategory categoryName: String!, clickedWith index: Int, withDetails details: [AnyHashable : Any]!) {
+        
+    }
+}

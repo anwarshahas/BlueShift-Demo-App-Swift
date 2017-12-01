@@ -1,0 +1,14 @@
+PODS:
+  - BlueShift-iOS-SDK (0.3.2):
+    - BlueShift-iOS-SDK/Core (= 0.3.2)
+  - BlueShift-iOS-SDK/Core (0.3.2)
+
+DEPENDENCIES:
+  - BlueShift-iOS-SDK
+
+SPEC CHECKSUMS:
+  BlueShift-iOS-SDK: 4aa7637fcef18f6f151f1233b1c8763ee0cde8f7
+
+PODFILE CHECKSUM: 577251f604fa8968b439faa011c723ec8c072664
+
+COCOAPODS: 1.2.1

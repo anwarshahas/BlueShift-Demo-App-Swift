@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/HttpRequestOperationEntity.m"
+            timestampString = "518698661.094875"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "+fetchBatchWiseRecordFromCoreDataWithCompletetionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/HttpRequestOperationEntity.m"
+            timestampString = "518698662.266572"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "+fetchBatchWiseRecordFromCoreDataWithCompletetionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/BlueShiftHttpRequestBatchUpload.m"
+            timestampString = "518698859.177448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "+uploadBatchAtIndex:fromBatches:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[BlueShiftHttpRequestBatchUpload uploadBatchAtIndex:fromBatches:]"
+                  moduleName = "BlueShift_iOS_SDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Prometheus/Desktop/BlueShift/BlueShift-Swift-DemoApp/Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/BlueShiftHttpRequestBatchUpload.m"
+                  timestampString = "518698859.188456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__66+[BlueShiftHttpRequestBatchUpload uploadBatchAtIndex:fromBatches:]_block_invoke"
+                  moduleName = "BlueShift_iOS_SDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Prometheus/Desktop/BlueShift/BlueShift-Swift-DemoApp/Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/BlueShiftHttpRequestBatchUpload.m"
+                  timestampString = "518698859.193881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/BlueShift-iOS-SDK/BlueShift-iOS-SDK/BlueShiftBatchRequestOperation.m"
+            timestampString = "518698916.955542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-initWithBatchRequestOperationEntity:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

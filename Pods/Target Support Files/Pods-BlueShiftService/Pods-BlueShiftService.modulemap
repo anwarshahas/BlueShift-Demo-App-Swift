@@ -1,0 +1,6 @@
+framework module Pods_BlueShiftService {
+  umbrella header "Pods-BlueShiftService-umbrella.h"
+
+  export *
+  module * { export * }
+}

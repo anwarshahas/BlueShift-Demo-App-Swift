@@ -1,0 +1,6 @@
+framework module BlueShift_iOS_SDK {
+  umbrella header "BlueShift-iOS-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
